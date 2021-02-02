@@ -1,0 +1,28 @@
+.App {
+  font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+  padding: 3rem;
+  background-color: rgb(160, 63, 100);
+  color: rgb(251, 247, 248);
+  max-width: 500px;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100vh;
+}
+input {
+  font-size: 20px;
+  font-family: monospace;
+  text-align: center;
+}
+
+#vid-link {
+  color: rgb(251, 247, 248);
+}
