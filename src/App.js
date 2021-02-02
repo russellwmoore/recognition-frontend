@@ -63,7 +63,12 @@ export default function App() {
         </button>
         {url.length ? (
           <h3>
-            <a target="_blank" rel="noreferrer" id="vid-link" href={url}>
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              id="vid-link"
+              href={url}
+            >
               {url}
             </a>
           </h3>
